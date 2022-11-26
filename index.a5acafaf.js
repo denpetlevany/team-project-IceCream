@@ -1,0 +1,2 @@
+(()=>{const e={openMenuBtn:document.querySelector(".header-menu-open"),closeMenuBtn:document.querySelector(".header-menu-close"),menu:document.querySelector(".header-backdrop"),menuList:document.querySelector(".burger-list")};function n(){e.menu.classList.toggle("burger-is-hidden")}e.openMenuBtn.addEventListener("click",n),e.closeMenuBtn.addEventListener("click",n),e.menuList.addEventListener("click",(function(){e.menu.classList.toggle("burger-is-hidden")}))})();
+//# sourceMappingURL=index.a5acafaf.js.map
