@@ -1,0 +1,160 @@
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 86px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 81px;
+    padding-bottom: 119px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 83px;
+    padding-bottom: 132px;
+  }
+}
+
+.reviews-photo {
+  width: 85px;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 29px;
+  border-radius: 50%;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 19px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
+  }
+}
+
+.slider {
+  position: relative;
+}
+
+.slider__box {
+  position: relative;
+}
+
+.slider__text-wrapper {
+  background-color: #fafafa;
+  padding: 44px 50px 16px;
+  z-index: 2;
+  position: relative;
+}
+
+.slider__box::after {
+  position: absolute;
+  content: '';
+  width: 32px;
+  height: 4px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+  bottom: -30px;
+  background-image: url(../images/reviews/points.svg);
+
+  @media screen and (min-width: 768px) {
+    bottom: -24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    bottom: -15px;
+  }
+}
+
+.slider__text-wrapper::before {
+  position: absolute;
+  content: '';
+  width: 54px;
+  height: 40px;
+  background-image: url(../images/reviews/quotes.svg);
+  top: 28px;
+  left: 61px;
+  z-index: -2;
+
+  @media screen and (min-width: 768px) {
+    top: 30px;
+    left: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    top: 32px;
+    left: 50px;
+  }
+}
+
+.slider__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+  padding: 0 18px;
+  background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 2.16;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background-image: url(../images/reviews/home.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.swiper-slide {
+  height: 550px;
+
+  @media screen and (min-width: 340px) {
+    height: 500px;
+  }
+
+  @media screen and (min-width: 420px) {
+    height: 470px;
+  }
+
+  @media screen and (min-width: 480px) {
+    height: 430px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 340px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 320px;
+  }
+}
+
+.slider__name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  margin-top: 52px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 42px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 34px;
+  }
+}
